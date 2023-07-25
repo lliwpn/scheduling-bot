@@ -351,7 +351,7 @@ async def help(ctx):
 @bot.command()
 async def commands(ctx):
 
-    commands_embed = discord.Embed(colour = discord.Color.from_rgb(171, 213, 237), title = "bot commands", type = 'rich', description = "``%starttimer`` - start tracking time :clock1: \n ``%checkprogress`` - check how long you\'ve been playing :stopwatch: \n ``%endtimer`` - stop tracking time :clock10: \n \n``%schedule`` - view and edit the schedule :calendar: \n \n ``%isv`` - edit your isv :bookmark_tabs:\n``%isvorder`` - get an isv order :1234:\n``%roomrules`` - set up or view room rules :receipt:\n \n``%parkingtrack [current_points] [parking_goal]`` - see how much progress you've made to your parking goal :parking:")
+    commands_embed = discord.Embed(colour = discord.Color.from_rgb(171, 213, 237), title = "bot commands", type = 'rich', description = "``%starttimer`` - start tracking time :clock1: \n ``%checkprogress`` - check how long you\'ve been playing :stopwatch: \n ``%endtimer`` - stop tracking time :clock10: \n \n``%schedule`` - view and edit the schedule :calendar: \n \n ``%isv`` - edit your isv :bookmark_tabs:\n``%isvorder`` - get an isv order :1234:\n \n``%parkingtrack [current_points] [parking_goal]`` - see how much progress you've made to your parking goal :parking:")
     commands_embed2 = discord.Embed(colour = discord.Color.from_rgb(171, 213, 237), title = "bot commands", type = 'rich', description = "WIP")
 
     class EmbedOne(discord.ui.View):
